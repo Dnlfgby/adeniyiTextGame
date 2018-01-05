@@ -1,10 +1,11 @@
 /*
 * Daniel Fagbuyi
-* Max Weller
-* 8am
+* 
 *
-* Project 12 - Adventure Game Project, CSc 210, Spring 2017
-* Essentially, reads in a config fill and builds a entire adventure gamebased on this config file.
+*
+* Text based RPG game, where the goal is to traverse thru the room and collect items.
+*
+*  Main driver : Essentially, reads in a config fill and builds a entire adventure gamebased on this config file.
 */
 
 
