@@ -1,0 +1,60 @@
+define Treasure
+  name: golden one
+  weight: 35.4
+  value: 5
+end
+define Mob
+  name: Grrr
+  description: This is a big hairy scary wary merry thing.
+  power: 8
+end
+define Treasure
+  name: golden two
+  weight: 24.2
+  value: 3
+end
+define Treasure
+  name: apple fritter
+  weight: 4.2
+  value: 3
+end
+define Weapon
+  name: sword of me
+  weight: 3.4
+  damage: 9
+end
+define Treasure
+  name: golden three
+  weight: 4.1
+  value: 1
+end
+define Room
+  name: Room One
+  description: This is a big room
+  items: none
+  mob: none
+end
+define Room
+  name: Room Two
+  description: This is a small room
+  items: golden one
+  mob: Grrr
+end
+define Room
+  name: Room Three
+  description: This is a medium sized room.
+  items: sword of me
+  mob: none
+end
+define Room
+  name: Room Four
+  description: I'm tired of giving descriptions
+  items: golden two, golden three, apple fritter
+  mob: none
+end
+Room One SOUTH Room Two
+Room Two NORTH Room One
+Room Two SOUTH Room Four
+Room Four EAST Room Three
+Room One EAST Room Three
+Room Three WEST Room One

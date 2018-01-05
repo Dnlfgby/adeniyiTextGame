@@ -1,0 +1,106 @@
+define Weapon
+    name: Foot Cream
+    weight: 1
+    damage: 22
+end
+
+define Treasure
+    name: The Burn Book
+    weight: 8
+    value: 50
+end
+
+define Mob
+    name: Regina George
+    description: Her hair is insured for $10,000. 
+    power: 30
+end
+
+define Treasure
+    name: Seat at the Plastics' Table
+    weight: 6
+    value: 20
+end
+
+define Treasure
+    name: Spring Fling Queen Tiara
+    weight: 10
+    value: 100
+end
+
+define Mob
+    name: Karen Smith
+    description: Wanna go to Taco Bell?
+    power: 10
+end
+
+define Weapon
+    name: Candy Canes
+    weight: 5
+    damage: 35
+end
+
+define Treasure
+    name: Mathletes Championship
+    weight: 12
+    value: 150
+end
+
+define Mob
+    name: Gretchen Weiners
+    description: So fetch!
+    power: 20
+end
+
+define Room
+    name: The Mall
+    description: It's been a month and all we've done is make Regina's face smell like a foot.
+    items: Foot Cream
+    mob: none
+end
+
+define Room
+    name: Regina's Bedroom
+    description: Happy hour is from 4 to 6!
+    items: The Burn Book
+    mob: Regina George
+end
+
+define Room
+    name: N. Shore Cafeteria
+    description: This map is gonna be your guide to North Shore.
+    items: Seat at the Plastics' Table
+    mob: none
+end
+
+define Room
+    name: Spring Fling
+    description: I ought to cancel your Spring Fling. Now I'm not going to do that because I've already paid the DJ.
+    items: Spring Fling Queen Tiara
+    mob: Karen Smith
+end
+
+define Room
+    name: Math Class
+    description: You Go Glen Coco!
+    items: Candy Canes, Mathletes Championship
+    mob: Gretchen Weiners
+end
+
+define Room
+    name: Projection Room Above the Auditorium
+    description: Watch out for Shane Oman!
+    items: none
+    mob: none
+end
+
+The Mall SOUTH Regina's Bedroom
+Regina's Bedroom NORTH The Mall
+Regina's Bedroom EAST N. Shore Cafeteria
+N. Shore Cafeteria WEST Regina's Bedroom
+N. Shore Cafeteria EAST Spring Fling
+Spring Fling WEST N. Shore Cafeteria
+N. Shore Cafeteria NORTH Math Class
+Math Class SOUTH N. Shore Cafeteria
+N. Shore Cafeteria SOUTH Projection Room Above the Auditorium
+Projection Room Above the Auditorium NORTH N. Shore Cafeteria
